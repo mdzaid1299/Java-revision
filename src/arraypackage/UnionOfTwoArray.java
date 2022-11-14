@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class UnionOfTwoArray {
     public static void main(String[] args) {
+
         UnionOfTwoArray unionOfTwoArray = new UnionOfTwoArray();
         int arr1[] = {4,2,1,8};
         int[] arr2 = {2,5,6,1};
