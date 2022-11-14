@@ -8,6 +8,7 @@ public class UnionOfTwoArray {
         UnionOfTwoArray unionOfTwoArray = new UnionOfTwoArray();
         int arr1[] = {4,2,1,8};
         int[] arr2 = {2,5,6,1};
+
         System.out.println("After union of two array ");
         System.out.println(unionOfTwoArray.findUnion(arr1, arr2));
 
