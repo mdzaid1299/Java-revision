@@ -25,6 +25,7 @@ public class KthSmallestElement {
         System.out.println("Enter " + i +"th element value ");
         arr[i] = sc.nextInt();
     }
+
         KthSmallestElement obj = new KthSmallestElement();
         System.out.println("Smallest element is  " + obj.returnKthElementOfAnArray(arr));
 
