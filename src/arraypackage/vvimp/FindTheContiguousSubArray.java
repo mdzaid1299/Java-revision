@@ -22,6 +22,7 @@ public class FindTheContiguousSubArray {
 
         int maxSum = arr[0];
         int currentSum = 0;
+
         for(int i = 0 ; i < arr.length; i++){
             currentSum = currentSum + arr[i];
             if(currentSum > maxSum){
