@@ -10,9 +10,13 @@ import static java.util.Arrays.sort;
 public class MinimizeTheHeights {
     public static void main(String[] args) {
         int[] arr = {1, 15, 10};
+        int[] arr2 =  {1, 5, 15, 10};
         MinimizeTheHeights minimizeTheHeights = new MinimizeTheHeights();
         int minDiff = minimizeTheHeights.getMinimumDifference(arr, arr.length, 6);
+        int minDiff2 = minimizeTheHeights.getMinimumDifference(arr2,arr2.length,3);
+
         System.out.println("minDiff = " + minDiff);
+        System.out.println("minDiff2 = " + minDiff2);
 
     }
     public int getMinimumDifference(int[] arr,int size, int k ){
