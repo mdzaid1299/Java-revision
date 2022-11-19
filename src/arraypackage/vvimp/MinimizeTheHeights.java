@@ -21,6 +21,7 @@ public class MinimizeTheHeights {
 
     }
     public int getMinimumDifference(int[] arr,int size, int k ){
+
         sort(arr);
         int initiallyMaxHeight = arr[size-1];
         int initiallyMinHeight = arr[0];
