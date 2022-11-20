@@ -8,7 +8,7 @@ public class MinNumberOfJumps {
     }
     public int minNoOfJumpsToReachEndOfTheArray(int[] arr){
         sort(arr);
-        // apply binary search logic
+
        return 0;
     }
 }
