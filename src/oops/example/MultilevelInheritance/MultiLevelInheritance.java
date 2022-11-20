@@ -17,6 +17,7 @@ public class MultiLevelInheritance {
         babyDog.weep();
         babyDog.eat();
         babyDog.bark();
+
         System.out.println("===============================");
         dog.bark();
         dog.eat();
