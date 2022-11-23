@@ -5,6 +5,7 @@ package oops.polymorphism.superKeyword;
 public class Dog extends Animal{
     boolean sleep;
     public Dog(boolean walk, int legs,boolean sleep) {
+
         super(walk, legs);
         this.sleep = sleep;
     }
