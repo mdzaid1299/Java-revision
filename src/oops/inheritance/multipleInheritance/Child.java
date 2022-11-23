@@ -1,4 +1,4 @@
-package oops.multipleInheritance;
+package oops.inheritance.multipleInheritance;
 
 //public class Child extends Father,Mother{
 //    public static void main(String[] args) {

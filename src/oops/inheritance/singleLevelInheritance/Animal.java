@@ -1,4 +1,4 @@
-package oops.singleLevelInheritance;
+package oops.inheritance.singleLevelInheritance;
 
 public class Animal {
 

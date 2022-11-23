@@ -1,4 +1,4 @@
-package oops.example.MultilevelInheritance;
+package oops.inheritance.MultilevelInheritance;
 
 public class MultiLevelInheritance {
     public static void main(String[] args) {

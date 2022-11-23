@@ -1,4 +1,4 @@
-package oops.hierarchicalInterface;
+package oops.inheritance.hierarchicalInterface;
 
 public class Cat extends Animal{
     public void catSound(){

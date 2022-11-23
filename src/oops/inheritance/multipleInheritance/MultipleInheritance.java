@@ -1,4 +1,4 @@
-package oops.multipleInheritance;
+package oops.inheritance.multipleInheritance;
 
 public class MultipleInheritance {
 

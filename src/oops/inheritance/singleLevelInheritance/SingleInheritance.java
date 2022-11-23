@@ -1,4 +1,4 @@
-package oops.singleLevelInheritance;
+package oops.inheritance.singleLevelInheritance;
 
 //Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
 //Why use inheritance in java

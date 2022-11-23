@@ -1,4 +1,4 @@
-package oops.example.MultilevelInheritance;
+package oops.inheritance.MultilevelInheritance;
 
 public class Animal {
     public void eat(){

@@ -1,4 +1,4 @@
-package oops.hierarchicalInterface;
+package oops.inheritance.hierarchicalInterface;
 
 public class HierarchicalInterface {
     public static void main(String[] args) {
