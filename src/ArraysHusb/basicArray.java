@@ -5,9 +5,11 @@ public class basicArray {
 
 
         int[] age = {56, 75, 97, 32, 85};
-   for (int i = 0 ; i < age.length ; i++)
+//   for (int i = 0 ; i < age.length ; i++)
+        int j = 0;
+       while (j< age.length)
         {
-            System.out.println(age[i]);
+            System.out.println(age[j]);
         }
     }
 }
