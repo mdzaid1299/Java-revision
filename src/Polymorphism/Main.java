@@ -18,7 +18,4 @@ public class Main {
 
     }
 
-    void nbc() {
-        System.out.println("ji");
-    }
 }
