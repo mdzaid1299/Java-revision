@@ -6,7 +6,7 @@ public class Recur1 {
         int mac =rec.fact(3);
         System.out.println(mac);
     }
-    public static int fact(int n) {
+    public  int fact(int n) {
         if (n == 0) {
             return 1;
         }else {
