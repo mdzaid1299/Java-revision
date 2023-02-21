@@ -14,6 +14,7 @@ public class leapYr {
             System.out.println("leap hai ");
 
         } else {
+
             System.out.println("nahi hai ye");
         }
     }
