@@ -2,11 +2,22 @@ package topgs;
 
 public class FindNumberOfVowels {
     public static void main(String[] args) {
-        String arr[] = {"a", "e", "y", "u", "h", "d"};
-        for (int i = 0; i < args.length; i++) {
-            if (arr[i] == "a,e,i,o,u") {
-                System.out.println();
+        int count = 0;
+        char[] arr = {'a', 'e', 'y', 'u', 'i', 'd'};
+        System.out.println("vovel count");
+        FindNumberOfVowels find = new FindNumberOfVowels();
+        int finder = find.countVovel(arr);
+        System.out.println(finder);
+    }
+
+
+    public  int countVovel(char[] arr) {
+        int count = 0;
+        for (char c : arr) {
+            if ((c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A')) {
+                count++;
             }
         }
+        return count;
     }
 }
