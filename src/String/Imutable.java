@@ -2,8 +2,8 @@ package String;
 
 public class Imutable {
     public static void main(String[] args) {
-        String str = "Hi";
-        String str2 = "HI";
+        int str = 5;
+        int  str2 = 5;
         if (str == str2) {
             System.out.println("true");
         }else System.out.println("false");
