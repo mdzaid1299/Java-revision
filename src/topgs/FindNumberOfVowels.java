@@ -13,7 +13,8 @@ public class FindNumberOfVowels {
 
     public  int countVovel(char[] arr) {
         int count = 0;
-        for (char c : arr) {
+        for (int i = 0; i < arr.length ; i++) {
+            char c = arr[i];
             if ((c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A')) {
                 count++;
             }
