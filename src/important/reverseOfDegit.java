@@ -1,4 +1,4 @@
-
+package important;
 
 import java.util.Scanner;
 
@@ -21,7 +21,8 @@ class ReverseNumber {
  * Explanation:
  *
  * The program takes input from the user using the Scanner class and stores it in the variable num.
- * Then, it uses a while loop to continuously extract the last digit of the num using the modulo operator (%) and add it to a new variable reverse multiplied by 10.
+ * Then, it uses a while loop to continuously extract the last digit of the num using the modulo operator
+ * (%) and add it to a new variable reverse multiplied by 10.
  * After each iteration, the num is divided by 10 to remove the last digit.
  * The loop continues until num becomes 0.
  * Finally, the reversed number is printed to the console.
