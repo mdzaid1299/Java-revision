@@ -1,6 +1,6 @@
 package Course3oops;
 
-public class Employee {
+public class Employee{
     String bookName;
     String Isbn;
     int yearOfPublishing;
