@@ -13,4 +13,5 @@ public class Manager extends Employee {
         System.out.println(manager.calculateSalary(8.7f));
         System.out.println(manager);
     }
+
 }

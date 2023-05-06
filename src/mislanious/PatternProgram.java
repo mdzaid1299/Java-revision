@@ -10,4 +10,5 @@ public class PatternProgram {
             System.out.println();
         }
     }
+
 }
