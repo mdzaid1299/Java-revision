@@ -1,7 +1,7 @@
 package inheritance;
 
 public class Animal {
-    public static void move() {
+    public  void move() {
         System.out.println("Animal moves");
     }
 }

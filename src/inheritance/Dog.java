@@ -1,9 +1,10 @@
 package inheritance;
 
-public class Dog  {
-    public static void move() {
+public class Dog extends Animal {
+    public void move() {
+        super.move();
+
         System.out.println("Dog can move");
-        Animal.move();
 
     }
 }

@@ -6,6 +6,6 @@ public class Imp {
         Dog dog = new Dog();
 
        // animal.move();
-        Dog.move();
+        dog.move();
     }
 }
