@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Enumeration;
 import java.util.List;
 
-public class ArrayList  {
+public class Array  {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         list.add(10);
